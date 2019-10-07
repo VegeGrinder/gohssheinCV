@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Goh Shang Shein CV</title>
+
+    <!-- web-fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
+
+    <!-- font-awesome -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Style CSS -->
+	<style>
+body {
+    font-family : 'Hind', sans-serif;
+    font-size   : 15px;
+    line-height : 1.8em;
+    color       : #3d3d50;
+    font-weight : 300;
+    background  : #ffffff;
+    }
+
+/* --------------------------------------
+ * Global Typography
+ *------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+    margin : 0 0 15px;
+    color  : #2b2b3d;
+    }
+
+h1 {
+    font-size   : 26px;
+    line-height : 1.8em;
+    font-weight : 700;
+    }
+
+h2 {
+    font-size   : 18px;
+    line-height : 1.8em;
+    font-weight : 700;
+    }
+
+h3 {
+    font-size   : 16px;
+    line-height : 1.8em;
+    font-weight : 500;
+    }
+
+h4 {
+    font-size   : 15px;
+    line-height : 1.8em;
+    font-weight : 500;
+    }
+
+h5 {
+    font-size   : 15px;
+    line-height : 1.5em;
+    font-weight : 500;
+    }
+
+h6 {
+    font-size   : 15px;
+    line-height : 1.5em;
+    }
+
+/* --------------------------------------
+ * LINK STYLE
+ *------------------------------------------*/
+a {
+    color              : #2a54f5;
+    text-decoration    : none;
+    -webkit-transition : all 0.3s ease 0s;
+    -moz-transition    : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition         : all 0.3s ease 0s;
+    }
+
+a,
+a:active,
+a:focus,
+a:active {
+    text-decoration : none;
+    outline         : none
+    }
+
+a:hover,
+a:focus {
+    text-decoration : none;
+    color           : #2a54f5;
+    }
+
+p {
+    margin-bottom : 20px;
+    }
+
+ul {
+    margin     : 0;
+    padding    : 0;
+    list-style : none;
+    }
+
+/*------------------
+ * Button Style
+ *------------------*/
+.btn {
+    padding        : 14px 30px 11px;
+    margin-bottom  : 0;
+    font-size      : 14px;
+    font-weight    : 500;
+    border-radius  : 0;
+    border         : 0;
+    text-transform : uppercase;
+    }
+
+.btn-lg {
+    font-weight : 700;
+    font-size   : 24px;
+    padding     : 15px 30px;
+    }
+
+/*btn-primary*/
+.btn-primary {
+    background-color : #2a54f5;
+    }
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active:focus {
+    background : #1e3eb5;
+    }
+
+/*btn-default*/
+.btn-default {
+    color            : #2a54f5;
+    background-color : transparent;
+    border           : 2px solid #2a54f5;
+    }
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active:focus {
+    background   : #2a54f5;
+    color        : #ffffff;
+    border-color : #2a54f5;
+    }
+
+button:focus,
+.btn:focus,
+.btn:active:focus {
+    outline : none;
+    }
+
+/* --------------------
+ * Column Block
+ * -------------------*/
+
+.columns-block {
+    flex-wrap         : wrap;
+    display           : -webkit-box;
+    display           : -moz-box;
+    display           : -ms-flexbox;
+    display           : -webkit-flex;
+    display           : flex;
+    -webkit-flex-flow : row wrap;
+    justify-content   : space-around;
+    }
+
+.blocks {
+    box-sizing : border-box;
+    }
+
+.left-col-block {
+    width      : 50%;
+    text-align : center;
+    overflow   : hidden;
+    position   : fixed;
+    left       : 0;
+    }
+
+.right-col-block {
+    width      : 50%;
+    position   : absolute;
+    right      : 0;
+    box-shadow : -10px -10px 30px rgba(0, 0, 0, 0.23);
+    }
+
+@media (max-width : 600px) {
+    .left-col-block {
+        width    : 100%;
+        position : relative;
+        }
+
+    .right-col-block {
+        width      : 100%;
+        position   : relative;
+        box-shadow : none;
+        }
+    }
+
+/* --------------------
+ * Section Background
+ * -------------------*/
+
+.gray-bg {
+    background-color : #f9f9f9;
+    }
+
+/* --------------------
+ *  main Wrapper
+ * -------------------*/
+#main-wrapper {
+    background : #ffffff;
+    overflow   : hidden;
+    }
+
+/*-------------------
+ * Section Wrapper
+ *-------------------*/
+.section-wrapper {
+    padding : 50px;
+    }
+
+@media (max-width : 480px) {
+    .section-wrapper {
+        padding : 30px 20px;
+        }
+    }
+
+/*---------------------------
+* Section Title
+*---------------------------*/
+.section-title {
+    margin-bottom : 15px;
+    }
+
+.section-title h2 {
+    margin-bottom : 5px;
+    color         : #bebece;
+    }
+
+/*-----------------------------
+ * NAVIGATION & HEADER STYLE
+ *-------------------------------*/
+
+.header {
+    padding        : 0;
+    margin         : 0;
+    height         : 100vh;
+    vertical-align : middle;
+    position       : relative;
+    }
+
+.header .profile-img {
+    position            : absolute;
+    top                 : 0;
+    left                : 0;
+    z-index             : -1;
+    width               : 100%;
+    height              : 100%;
+    background-image    : url(./img/IMG_GSS.jpg);
+    background-size     : cover;
+    background-position : center top;
+    }
+
+.header .profile-img:before {
+    content    : "";
+    position   : absolute;
+    left       : 0;
+    top        : 0;
+    right      : 0;
+    bottom     : 0;
+    background : linear-gradient(
+            -30deg,
+            rgba(42, 84, 245, 0.5) 0%,
+            rgba(42, 84, 245, 0.5) 40%,
+            transparent 60%,
+            transparent 100%
+    );
+
+    }
+
+.header .content {
+    position : absolute;
+    bottom   : 0;
+    left     : 0;
+    right    : 0;
+    width    : 100%;
+    margin   : 0 auto;
+    padding  : 10%;
+    }
+
+.header .content h1 {
+    font-size   : 36px;
+    color       : #ffffff;
+    line-height : 1;
+    margin      : 0;
+    }
+
+.header .content p {
+    font-size : 18px;
+    color     : #ffffff;
+    }
+
+.header .btn {
+    margin-top : 40px;
+    }
+
+.header .content .social-icon {
+    margin  : 0;
+    padding : 0;
+    display : block;
+    }
+
+.header .content .social-icon li {
+    display : inline-block;
+    margin  : 0 2px;
+    }
+
+.header .content .social-icon li a {
+    display       : block;
+    font-size     : 12px;
+    color         : #ffffff;
+    width         : 34px;
+    height        : 34px;
+    line-height   : 33px;
+    text-align    : center;
+    border-radius : 100%;
+    border        : 2px solid rgba(255, 255, 255, .2);
+    }
+
+.header .content .social-icon li a:hover {
+    border-color : #ffffff;
+    }
+
+@media (max-width : 600px) {
+    .header .profile-img {
+        z-index : 1;
+        }
+
+    .header .content {
+        z-index : 2;
+        }
+    }
+
+/*-------------------
+ * Intro
+ *-------------------*/
+
+.intro {
+    }
+
+/*-------------------
+ * Expertise
+ *-------------------*/
+.expertise-item {
+    margin-bottom : 20px;
+    }
+
+.expertise-item h3 {
+    margin-bottom : 5px;
+    font-weight   : 700;
+    }
+
+/*-------------------
+ * Skills Progressbar
+ *-------------------*/
+
+.progress-item {
+    position : relative;
+    }
+
+.progress-item .progress-title {
+    font-size     : 15px;
+    font-weight   : 400;
+    display       : inline-block;
+    margin-bottom : 5px;
+    }
+
+.progress-item .progress {
+    height        : 4px;
+    box-shadow    : none;
+    border-radius : 5px;
+    }
+
+.progress-item .progress-bar {
+    background-color : #2a54f5;
+    box-shadow       : none;
+    text-align       : right;
+    }
+
+.progress-item .progress-percent {
+    font-size        : 10px;
+    background-color : #313131;
+    position         : absolute;
+    top              : 5px;
+    padding          : 0 8px;
+    border-radius    : 3px;
+    }
+
+.progress-item .progress-percent::before {
+    content      : "";
+    position     : absolute;
+    left         : 0;
+    bottom       : -4px;
+    border-top   : 6px solid #313131;
+    border-right : 8px solid transparent;
+    }
+
+/*-------------------
+ * Portfolio
+ *-------------------*/
+
+.portfolio-item {
+    position      : relative;
+    display       : block;
+    margin-bottom : 30px;
+    }
+
+.portfolio-item .portfolio-thumb img {
+    height    : auto;
+    display   : block;
+    max-width : 100%;
+    }
+
+.portfolio-item .portfolio-info {
+    position   : absolute;
+    bottom     : 0;
+    padding    : 30px 15px 5px;
+    width      : 100%;
+    background : -webkit-linear-gradient(
+            top,
+            transparent 0%,
+            rgba(0, 0, 0, 0.5) 100%
+    );
+    }
+
+.portfolio-item .portfolio-info h3 {
+    margin      : 0;
+    line-height : 1;
+    color       : #ffffff;
+    }
+
+.portfolio-item .portfolio-info small {
+    color : #ffffff;
+    }
+
+.portfolio-item:hover .portfolio-info {
+    background : -webkit-linear-gradient(
+            top,
+            transparent 0%,
+            rgba(42, 84, 245, 0.5) 100%
+    );
+    }
+
+/*-------------------
+ * Content Item
+ *-------------------*/
+
+.content-item {
+    margin-bottom : 40px;
+    }
+
+.content-item h3 {
+    margin         : 0 0 10px;
+    line-height    : 1;
+    font-weight    : bold;
+    text-transform : uppercase;
+    }
+
+.content-item h4 {
+    margin      : 0;
+    line-height : 1;
+    }
+
+.content-item small {
+    color : #888888;
+    }
+	</style>
+</head>
+<body id="page-top">
+<div id="main-wrapper">
+
+<div class="columns-block">
+<div class="left-col-block blocks">
+    <header class="header">
+        <div class="content text-center">
+            <h1>Hi, I'm Goh Shang Shein</h1>
+
+            <p class="lead">Web Developer</p>
+            <ul class="social-icon">
+                <li><a href="https://www.facebook.com/goh.shangshein" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/gohsshein" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <div class="profile-img"></div>
+    </header>
+    <!-- .header-->
+</div>
+
+
+<div class="right-col-block blocks">
+<section class="intro section-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>Who I am.</h2>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <p>
+                    I am a Computer Science student from Universiti Sains Malaysia, majoring in Artificial Intelligence.
+					I am resourceful and able to solve difficulties independantly. On the other hand, working with other
+					people is not a problem. I am willing to learn new technologies and methods to make my coding experience
+					even better. As long as there is hope, I will not back down from a challenge. 
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="expertise-wrapper section-wrapper gray-bg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>Expertise</h2>
+                </div>
+            </div>
+        </div>
+        <!-- .row -->
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="expertise-item">
+                    <h3>Concept Conversion</h3>
+
+                    <p>
+                        Creatively convert abstract ideas by clients into digitalized web pages.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="expertise-item">
+                    <h3>Quick & Reliable</h3>
+
+                    <p>
+                        Quickly finish requirements set by clients within time provided competently.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- .row -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="expertise-item">
+                    <h3>Seamless Communication</h3>
+
+                    <p>
+                        Constant communication and website progression is transparent to clients.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="expertise-item">
+                    <h3>Product Training</h3>
+
+                    <p>
+                        Concisely provide adequate product training to clients after website is complete.
+					</p>
+                </div>
+            </div>
+        </div>
+        <!-- .row -->
+    </div>
+    <!--.container-fluid-->
+</section>
+<!-- .expertise-wrapper -->
+
+<section class="section-wrapper skills-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>Skills</h2>
+                </div>
+            </div>
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="progress-wrapper">
+
+                    <div class="progress-item">
+                        <span class="progress-title">JavaScript</span>
+
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                                 aria-valuemax="100" style="width: 95%"><span class="progress-percent"> 95%</span>
+                            </div>
+                        </div>
+                        <!-- .progress -->
+                    </div>
+                    <!-- .skill-progress -->
+
+
+                    <div class="progress-item">
+                        <span class="progress-title">CSS</span>
+
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                 aria-valuemax="100" style="width: 90%"><span class="progress-percent"> 90%</span>
+                            </div>
+                        </div>
+                        <!-- /.progress -->
+                    </div>
+                    <!-- /.skill-progress -->
+
+
+                    <div class="progress-item">
+                        <span class="progress-title">PHP</span>
+
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                 aria-valuemax="100" style="width: 90%;"><span class="progress-percent"> 90%</span>
+                            </div>
+                        </div>
+                        <!-- /.progress -->
+                    </div>
+                    <!-- /.skill-progress -->
+
+                    <div class="progress-item">
+                        <span class="progress-title">mySQL</span>
+
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                 aria-valuemax="100" style="width: 80%;"><span class="progress-percent"> 80%</span>
+                            </div>
+                        </div>
+                        <!-- /.progress -->
+                    </div>
+                    <!-- /.skill-progress -->
+                    <div class="progress-item">
+                        <span class="progress-title">Java, C++, C</span>
+
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+                                 aria-valuemax="100" style="width: 65%;"><span class="progress-percent"> 65%</span>
+                            </div>
+                        </div>
+                        <!-- .progress -->
+                    </div>
+                    <!-- .skill-progress -->
+
+                </div>
+                <!-- /.progress-wrapper -->
+            </div>
+        </div>
+        <!--.row -->
+    </div>
+    <!-- .container-fluid -->
+</section>
+<!-- .skills-wrapper -->
+
+<section class="section-wrapper section-experience gray-bg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title"><h2>Work Experience</h2></div>
+            </div>
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="content-item">
+                    <small>2019</small>
+                    <h3>Web Developer Intern</h3>
+                    <h4>Caritech Sdn Bhd</h4>
+
+                    <p>Jelutong, Penang</p>
+                </div>
+                <!-- .experience-item -->
+            </div>
+        </div>
+        <!--.row-->
+    </div>
+    <!-- .container-fluid -->
+
+</section>
+<!-- .section-experience -->
+
+<section class="section-wrapper section-education">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title"><h2>Education</h2></div>
+            </div>
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="content-item">
+                    <small>2016 - Present</small>
+                    <h3>BACHELOR OF COMPUTER SCIENCE WITH HONOURS</h3>
+                    <h4>Universiti Sains Malaysia</h4>
+
+                    <p>Current CGPA: 3.52</p>
+                </div>
+                <!-- .experience-item -->
+            </div>
+        </div>
+        <!--.row-->
+    </div>
+    <!-- .container-fluid -->
+
+</section>
+<!-- .section-education -->
+
+<section class="section-wrapper section-interest gray-bg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>Interest</h2>
+                </div>
+            </div>
+        </div>
+        <!-- .row -->
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="content-item">
+                    <h3>Computer Games</h3>
+
+                    <p>Familiar with all kinds of online and offline games. Socialize and make things happen
+						with other players. Spend leisure time here to both utilise my brain and increase my
+						action per minute.</p>
+                </div>
+                <div class="content-item">
+                    <h3>Badminton</h3>
+
+                    <p>Gained experience through hours of playtime with friends and colleagues. Learnt
+						techniques and skills by watching tutorials at Youtube. Looking forward to face you
+						on the badminton court.</p>
+
+                </div>
+                <div class="content-item">
+                    <h3>Bodybuilding</h3>
+
+                    <p>Balance out stationary lifestyle with intense body exercise. Building muscle mass
+						while fighting back pain that exist in all computer science graduates. Remember,
+						try not to skip leg day.</p>
+                </div>
+            </div>
+        </div>
+        <!-- .row -->
+
+    </div>
+</section>
+<!-- .section-publications -->
+
+<section class="section-wrapper portfolio-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>Portfolio</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <a class="portfolio-item" href="http://medikrill.org" target="_blank">
+                    <div class="portfolio-thumb">
+                        <img src="img/IMG_MEDIKRILL.jpg" alt="">
+                    </div>
+
+                    <div class="portfolio-info">
+                        <h3>MediKrill</h3>
+                        <small>medikrill.org</small>
+                    </div>
+                    <!-- portfolio-info -->
+                </a>
+                <!-- .portfolio-item -->
+            </div>
+            <div class="col-md-6">
+                <a class="portfolio-item" href="http://grov.cari.tech" target="_blank">
+                    <div class="portfolio-thumb">
+                        <img src="img/IMG_GROV.jpg" alt="">
+                    </div>
+
+                    <div class="portfolio-info">
+                        <h3>Grov Design</h3>
+                        <small>grov.cari.tech</small>
+                    </div>
+                    <!-- portfolio-info -->
+                </a>
+                <!-- .portfolio-item -->
+            </div>
+            <div class="col-md-6">
+                <a class="portfolio-item" href="http://mypenang.gov.my/" target="_blank">
+                    <div class="portfolio-thumb">
+                        <img src="img/IMG_PENANG.jpg" alt="">
+                    </div>
+
+                    <div class="portfolio-info">
+                        <h3>Penang Global Tourism</h3>
+                        <small>mypenang.gov.my</small>
+                    </div>
+                    <!-- portfolio-info -->
+                </a>
+                <!-- .portfolio-item -->
+            </div>
+            <div class="col-md-6">
+                <a class="portfolio-item" href="https://dailywordz.com/login">
+                    <div class="portfolio-thumb">
+                        <img src="img/IMG_WORDZ.jpg" alt="">
+                    </div>
+
+                    <div class="portfolio-info">
+                        <h3>DailyWordz</h3>
+                        <small>dailywordz.com</small>
+                    </div>
+                    <!-- portfolio-info -->
+                </a>
+                <!-- .portfolio-item -->
+            </div>
+
+        </div>
+        <!-- /.row -->
+    </div>
+</section>
+<!-- .portfolio -->
+
+<section class="section-contact section-wrapper gray-bg">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="section-title">
+					<h2>Contact</h2>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<address>
+					<strong>Address</strong><br>
+					11A, Lorong Jambu Madu 4, Taman Jambu Madu, 14000 Bukit Mertajam, Pulau Pinang.
+				</address>
+				<address>
+					<strong>Mobile Number</strong><br>
+					017-5818160
+				</address>
+				<address>
+					<strong>Email</strong><br>
+					<a href="mailto:gohsshein@student.usm.my">gohsshein@student.usm.my</a>
+				</address>
+			</div>
+		</div>
+	</div>
+
+</section>
+</div>
+<!-- .right-col-block -->
+</div>
+<!-- .columns-block -->
+</div>
+<!-- #main-wrapper -->
+</body>
+</html>
